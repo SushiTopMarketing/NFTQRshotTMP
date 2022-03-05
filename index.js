@@ -27,7 +27,7 @@ async function firstUser(){
         useraddress = wallet.address;
     }    
 
-    nftlink.innerHTML = `<a href="https://tofunft.com/user/${useraddress}/items/in-wallet" target="_blank">${useraddress.substring(0,16)}...に接続中<img src="./../img/nft.png"></a>`
+    nftlink.innerHTML = `<a href="https://tofunft.com/user/${useraddress}/items/in-wallet" target="_blank">${useraddress.substring(0,16)}...に接続中<img src="./img/nft.png"></a>`
     airdrop_servermeta(useraddress);
 }
 
@@ -50,7 +50,7 @@ async function walletUser(){
     }
     localStorage.setItem('addressofmine', useraddress);    
     modal.style.display = "none";
-    nftlink.innerHTML = `<a href="https://tofunft.com/user/${useraddress}/items/in-wallet" target="_blank">${useraddress.substring(0,16)}...に接続中<img src="./../img/nft.png"></a>`
+    nftlink.innerHTML = `<a href="https://tofunft.com/user/${useraddress}/items/in-wallet" target="_blank">${useraddress.substring(0,16)}...に接続中<img src="./img/nft.png"></a>`
     airdrop_servermeta(useraddress);
 }
 
